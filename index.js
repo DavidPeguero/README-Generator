@@ -54,7 +54,10 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) =>
+    err ? console.error(err) : console.log('Succesfully created read me'))
+}
 
 // TODO: Create a function to initialize app
 function init() {
@@ -63,6 +66,8 @@ function init() {
         prompt(questions)
         .then((data) => {
             console.log(data);
+            //Create file with data
+            writeToFile('TEST.md',JSON.stringify(data));
         })
 }
 
