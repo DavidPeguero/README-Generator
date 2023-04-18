@@ -38,6 +38,16 @@ const questions = [
         type : 'list',
         message:'What is the licence for your project?',
         options: ['MIT', 'GNU', 'OTHER']
+    },
+    {
+        name : 'github', 
+        type : 'input',
+        message:'What is your github username?',
+    },
+    {
+        name : 'email', 
+        type : 'input',
+        message:'What is your email?',
     }
 ];
 
