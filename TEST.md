@@ -1,0 +1,1 @@
+{"title":"sd","description":"fsd","installation":"f","usage":"sdf","cGuidelines":"sdf","test":"dsf","license":"MIT","github":"","email":""}
