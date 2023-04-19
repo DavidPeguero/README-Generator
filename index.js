@@ -39,7 +39,7 @@ const questions = [
         name : 'license', 
         type : 'list',
         message:'What is the licence for your project?',
-        choices: ['MIT', 'GNU', 'OTHER']
+        choices: ['Apache', 'MIT', 'BSD', 'Unlicensed']
     },
     {
         name : 'github', 
@@ -67,10 +67,9 @@ function init() {
         .then((data) => {
             console.log(data);
             //Create file with data
-            writeToFile('TEST.md',generateMarkdown(data));
+            writeFile('TEST.md',generateMarkdown(data));
         })
 }
 
 // Function call to initialize app
-// init();
-console.log(markdown.renderLicenseSection(''))
+init();

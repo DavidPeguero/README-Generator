@@ -9,7 +9,17 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if(!license) return ''
-  return `https://www.mend.io/resources/blog/top-open-source-licenses-explained/#MIT_License`
+  switch(license){
+    case 'Apache':
+      return `https://www.mend.io/resources/blog/top-open-source-licenses-explained/#The_Apache_Licence`
+    case 'MIT':
+      return `https://www.mend.io/resources/blog/top-open-source-licenses-explained/#MIT_License`
+    case 'BSD':
+      return `https://www.mend.io/resources/blog/top-open-source-licenses-explained/#Berkeley_Software_Distribution_BSD`
+    case 'Unlicensed':
+      return ``
+  }
+  
 }
 
 // TODO: Create a function that returns the license section of README
