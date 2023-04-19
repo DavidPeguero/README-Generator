@@ -30,6 +30,7 @@ function generateMarkdown(data) {
   2. [Usage](#usage)
   3. [Contributing](#contributing)
   4. [Test Instructions](#test-instruction)
+  5. [Questions](#questions)
   ## Installation
   ${data.installation}
   ## Usage
@@ -38,6 +39,12 @@ function generateMarkdown(data) {
   ${data.cGuidelines}
   ## Test Instructions
   ${data.test}
+  ## Questions
+  If you would like to reach me, contact me using my GitHub or Email address:
+
+  GitHub: [${data.github}](https://github.com/${data.github})
+
+  Email: [${data.email}](${data.email})
   `;
 
   return markdown
