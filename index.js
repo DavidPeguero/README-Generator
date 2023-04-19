@@ -2,7 +2,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs')
 const markdown = require('./utils/generateMarkdown.js');
-const generateMarkdown = require('./utils/generateMarkdown.js');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -73,4 +72,5 @@ function init() {
 }
 
 // Function call to initialize app
-init();
+// init();
+console.log(markdown.renderLicenseSection(''))
