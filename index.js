@@ -65,7 +65,6 @@ function init() {
     inquirer.
         prompt(questions)
         .then((data) => {
-            console.log(data);
             //Create file with data
             writeToFile('TEST.md',markdown.generateMarkdown(data));
         })
