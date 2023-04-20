@@ -7,6 +7,8 @@
   ### Screenshot
   ![](./assets/./images/readme-generator.png)
 
+  ### Video Demonstration
+  [Follow this link](https://drive.google.com/file/d/15btzN_s1s0rRwjN1-1bXO8ryd6yxMhhp/view?usp=sharing)
   ## Table of Contents
   1. [Installation](#installation)
   2. [Usage](#usage)
