@@ -67,7 +67,7 @@ function init() {
         .then((data) => {
             console.log(data);
             //Create file with data
-            writeFile('TEST.md',generateMarkdown(data));
+            writeToFile('TEST.md',markdown.generateMarkdown(data));
         })
 }
 
