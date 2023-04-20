@@ -1,22 +1,18 @@
 
-  # README Generator
+  # README Demo
   [![](https://img.shields.io/badge/license-MIT-blue)](https://www.mend.io/resources/blog/top-open-source-licenses-explained/#MIT_License)
   ## Description
-  Create readme's for your projects in the CLI
-
-  ### Screenshot
-  ![](./assets/./images/readme-generator.png)
-
+  This is a readme made using the README generator
   ## Table of Contents
   1. [Installation](#installation)
   2. [Usage](#usage)
   3. [Contributing](#contributing)
-  4. [Test Instructions](#test-instruction)
+  4. [Test Instructions](#test-instructions)
   5. [Questions](#questions)
   ## Installation
-  ```npm i```
+  N/A
   ## Usage
-  ```node index.js```
+  N/A
   ## Contributing
   N/A
   ## Test Instructions

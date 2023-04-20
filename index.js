@@ -66,7 +66,7 @@ function init() {
         prompt(questions)
         .then((data) => {
             //Create file with data
-            writeToFile('TEST.md',markdown.generateMarkdown(data));
+            writeToFile('DEMO.md',markdown.generateMarkdown(data));
         })
 }
 
